@@ -10,6 +10,12 @@ The report is a fast local calculation so you only need an Upstash account.
 Replace its callback with an expensive API call, export, or sandbox operation
 to apply the same pattern to your application.
 
+## Live demo
+
+[Open the Tools demo](https://inspector.manufact.com/inspector?embedded=true&autoConnect=https%3A%2F%2Fmanufact-upstash-example.run.mcp-use.com%2Fmcp&embeddedConfig=%7B%22singleTab%22%3Atrue%2C%22defaultTab%22%3A%22tools%22%2C%22visibleTabs%22%3A%5B%22tools%22%5D%7D). Select `generate_report`, enter `[10, 20, 30]` in `values`, and click **Execute**. All visitors share the demo quota; wait about a minute if it is exhausted.
+
+MCP endpoint: https://manufact-upstash-example.run.mcp-use.com/mcp
+
 ## Run
 
 Requires Node.js 22.22.2 or newer.
